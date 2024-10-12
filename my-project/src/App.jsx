@@ -5,6 +5,7 @@ import Navbar from './Component/Navbar'
 import Contact from './Component/Contact'
 import Home from './Component/Home'
 import Hire from './Component/Hire'
+import Tools from './Component/Tools'
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 
 
@@ -18,7 +19,9 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Project />} />
+        <Route path="/tools" element={<Tools />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/hire" element={<Hire />} />
       </Routes>
 
       
