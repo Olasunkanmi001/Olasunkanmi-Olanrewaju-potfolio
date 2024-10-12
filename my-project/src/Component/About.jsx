@@ -3,7 +3,7 @@ import image from '../assets/Images/IMG_3128.JPG'
 
 const About = () => {
   return (
-    <div className='px-4 pt-32 md:pt-24 md:flex md:gap-5 lg:gap-24'>
+    <div className='px-4 pt-32 md:pt-24 md:flex md:gap-5 lg:gap-24 md:pb-40'>
 
         <div className='w-full h-auto rounded-xl mb-28 md:w-[40%] lg:w-[40%] lg:h-[600px]'>
             <img className='w-full h-full rounded-2xl shadow-2xl' src={image}/>
