@@ -1,27 +1,5 @@
 {
-    "routes":[{
-        "src": "/",
-        "dest": "/"
-    },
-    {
-        "src": "/about",
-        "dest": "/"
-    },
-    {
-        "src": "/projects",
-        "dest": "/"
-    },
-    {
-        "src": "/tools",
-        "dest": "/"
-    },
-    {
-        "src": "/contact",
-        "dest": "/"
-    },
-    {
-        "src": "/hire",
-         "dest": "/"
-    }
+"rewites":[
+    {"source": "/(.*)", "destination": "/"}
 ]
 }
