@@ -13,28 +13,28 @@ const Project = () => {
   const datas = [
     {
       img: image1,
-      liveLink: 'https://dictionary-app-live.vercel.app/',
+      liveLink: 'https://olanrewaju-dictionary.vercel.app/',
       githubLink: 'https://github.com/Olasunkanmi001/Dictionary.git',
     },
     {
       img: image2,
-      liveLink: 'https://my-portfolio-live.netlify.app/',
-      githubLink: 'https://github.com/Olasunkanmi001/Portfolio.git',
+      liveLink: 'https://newshomepage-liard.vercel.app/',
+      githubLink: 'https://github.com/Olasunkanmi001/newshomepage.git',
     },
     {
       img: image3,
-      liveLink: 'https://todo-app-live.vercel.app/',
-      githubLink: 'https://github.com/Olasunkanmi001/Todo-App.git',
+      liveLink: 'olanrewaju-weather-web.vercel.app/',
+      githubLink: 'https://github.com/Olasunkanmi001/Weather-website.git',
     },
     {
       img: image4,
-      liveLink: 'https://weather-app-live.vercel.app/',
-      githubLink: 'https://github.com/Olasunkanmi001/Weather-App.git',
+      liveLink: 'https://github.com/Olasunkanmi001/Country-API.git',
+      githubLink: 'country-api-482d.vercel.app',
     },
     {
       img: image5,
-      liveLink: 'https://e-commerce-site.netlify.app/',
-      githubLink: 'https://github.com/Olasunkanmi001/E-Commerce.git',
+      liveLink: 'product-list-with-cart-beryl-seven.vercel.app',
+      githubLink: 'https://github.com/Olasunkanmi001/product-list-with-cart.git',
     },
   ];
 

@@ -40,13 +40,13 @@ const About = () => {
 
   return (
     <motion.div
-      className='px-4 pt-32 md:pt-24 md:flex md:gap-5 lg:gap-24 md:pb-40'
+      className='px-4 pt-32 md:pt-24 md:flex md:gap-5 lg:gap-24 md:pb-40 lg:pb-16'
       variants={containerVariants}
       initial="hidden"
       animate="visible"
     >
       <motion.div
-        className='w-full h-auto rounded-xl mb-28 md:w-[40%] lg:w-[40%] lg:h-[600px]'
+        className='w-full h-auto rounded-xl mb-10 md:w-[40%] lg:w-[40%] lg:h-[600px]'
         variants={imageVariants}
         initial="hidden"
         animate="visible"

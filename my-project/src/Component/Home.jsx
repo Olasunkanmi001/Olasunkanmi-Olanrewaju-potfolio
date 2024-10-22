@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div className='grid justify-center pt-[30%] md:pt-[18%] pb-28'>
       <motion.h1
-        className='text-[#E8DAB2] flex justify-center text-4xl md:text-6xl font-bold mb-6'
+        className='text-[#E8DAB2] flex justify-center text-4xl md:text-6xl mt-10 font-bold mb-6'
         variants={headingVariants}
         initial="hidden"
         animate="visible"
@@ -40,11 +40,11 @@ const Home = () => {
         animate="visible"
         transition={{ delay: 0.2 }} // Add delay for the third heading
       >
-        I'm A <span className='text-[#EF6C4D]'>Front End Developer</span>
+        I'm a <span className='text-[#EF6C4D]'>Front End Developer</span>
       </motion.h1>
 
       <motion.div
-        className='rounded-full w-40 h-40 border-2 border-[#EF6C4D] m-auto flex justify-center mt-40 md:mt-16'
+        className='rounded-full w-40 h-40 border-2 border-[#EF6C4D] m-auto flex justify-center mt-16 mb-10 md:mb-0 md:mt-16'
       >
         <motion.img
           src={image1}
