@@ -16,7 +16,7 @@ const About = () => {
     visible: {
       opacity: 1,
       x: 0,
-      transition: { duration: 0.5, ease: 'easeInOut' },
+      transition: { duration: 0.5, ease: 'easeInOut'},
     },
   };
 
