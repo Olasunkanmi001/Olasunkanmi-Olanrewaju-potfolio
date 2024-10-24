@@ -6,6 +6,10 @@ import Contact from './Component/Contact'
 import Home from './Component/Home'
 import Hire from './Component/Hire'
 import Tools from './Component/Tools'
+import NotFound from './Component/NotFound'
+
+
+
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 
 
@@ -22,7 +26,9 @@ const App = () => {
         <Route path="/tools" element={<Tools />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/hire" element={<Hire />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
+      
 
       
 

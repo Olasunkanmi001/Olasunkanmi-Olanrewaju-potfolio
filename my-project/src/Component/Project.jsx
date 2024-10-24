@@ -23,13 +23,13 @@ const Project = () => {
     },
     {
       img: image3,
-      liveLink: 'olanrewaju-weather-web.vercel.app/',
+      liveLink: 'olanrewaju-weather-web.vercel.app',
       githubLink: 'https://github.com/Olasunkanmi001/Weather-website.git',
     },
     {
       img: image4,
-      liveLink: 'https://github.com/Olasunkanmi001/Country-API.git',
-      githubLink: 'country-api-482d.vercel.app',
+      liveLink: 'country-api-482d.vercel.app',
+      githubLink: 'https://github.com/Olasunkanmi001/Country-API.git',
     },
     {
       img: image5,
