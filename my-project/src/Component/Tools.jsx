@@ -6,6 +6,8 @@ import { FaBootstrap } from "react-icons/fa6";
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { PiFramerLogoFill } from "react-icons/pi";
 import { FaGitAlt } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
+import { IoLogoFigma } from "react-icons/io5";
 import { motion } from 'framer-motion'; // Import Framer Motion
 
 const Tools = () => {
@@ -18,6 +20,8 @@ const Tools = () => {
     { icon: <RiTailwindCssFill className="text-blue-400 text-7xl" />, name: "Tailwind CSS" },
     { icon: <PiFramerLogoFill className="text-7xl" />, name: "Framer Motion" },
     { icon: <FaGitAlt className="text-red-500 text-7xl" />, name: "Git" },
+    { icon: <SiNextdotjs  className='text-white text-7xl'/>, name: "Next"},
+    { icon: <IoLogoFigma className='text-orange-500 text-7xl'/>, name: "Figma"}
   ];
 
   // Framer Motion animation variant for flip effect
@@ -46,7 +50,7 @@ const Tools = () => {
           >
             {tool.icon}
             <h1
-              className={`bg-[#203857] text-[#E8DAB2] w-full h-10 pt-2 mt-2 flex justify-center items-center 
+              className={` text-[#E8DAB2] font-extrabold w-full h-10 pt-2 mt-2 flex justify-center items-center 
                 opacity-0 group-hover:opacity-100 transition-opacity duration-300`}
             >
               {tool.name}

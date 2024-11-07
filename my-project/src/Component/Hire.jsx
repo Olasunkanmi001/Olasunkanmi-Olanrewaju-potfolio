@@ -49,8 +49,7 @@ const Hire = () => {
 
       {/* Resume Button */}
       <motion.a
-        href="/path-to-resume.pdf" // Change to your actual resume path
-        download
+        href="https://docs.google.com/document/d/1HrDUVQcefUNq2YU0RGES9UjAoS63XYxhQXNd8P_Q9bE/edit?usp=sharing" // Updated to Google Docs link
         target="_blank"
         rel="noopener noreferrer"
         className="bg-[#EE6C4D] text-[#203857] px-8 py-3 rounded-full font-semibold text-lg"

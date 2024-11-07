@@ -11,31 +11,16 @@ const NotFound = () => {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 50 }}
       transition={{ duration: 0.5, ease: 'easeInOut' }}
-      style={{ 
-        display: 'flex', 
-        flexDirection: 'column', 
-        alignItems: 'center', 
-        justifyContent: 'center', 
-        height: '100vh', 
-        textAlign: 'center',
-        padding: '20px'
-      }}
+      className="flex flex-col items-center justify-center h-screen text-center bg-gray-100 p-6"
     >
-      <FaExclamationTriangle size={80} color="#ff6347" />
-      <h1 style={{ marginTop: '20px', fontSize: '2rem' }}>404 - Page Not Found</h1>
-      <p style={{ marginTop: '10px', fontSize: '1.2rem', color: '#666' }}>
+      <FaExclamationTriangle size={80} className="text-red-500" />
+      <h1 className="mt-5 text-3xl font-semibold text-gray-800">404 - Page Not Found</h1>
+      <p className="mt-3 text-lg text-gray-600">
         Oops! The page you're looking for doesn't exist.
       </p>
-      <Link 
-        to="/" 
-        style={{ 
-          marginTop: '20px', 
-          padding: '10px 20px', 
-          backgroundColor: '#ff6347', 
-          color: '#fff', 
-          textDecoration: 'none', 
-          borderRadius: '5px' 
-        }}
+      <Link
+        to="/"
+        className="mt-6 px-6 py-2 bg-red-500 text-white font-medium rounded-md hover:bg-red-600 transition"
       >
         Go Back Home
       </Link>
