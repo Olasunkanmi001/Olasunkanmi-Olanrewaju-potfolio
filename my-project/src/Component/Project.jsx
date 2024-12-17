@@ -6,6 +6,7 @@ import image3 from '../assets/Images/Screenshot 2024-10-07 at 5.14.01 PM.png';
 import image4 from '../assets/Images/Screenshot 2024-10-07 at 5.30.34 PM.png';
 import image5 from '../assets/Images/Screenshot 2024-10-07 at 11.03.07 PM.png';
 import image6 from '../assets/Images/Screenshot 2024-12-17 at 10.48.04 PM.png';
+import image7 from '../assets/Images/Screenshot 2024-12-17 at 11.30.31 PM.png';
 
 const Project = () => {
   const [activeIndex, setActiveIndex] = useState(null); // Track active project for mobile click
@@ -41,6 +42,11 @@ const Project = () => {
       img: image6,
       liveLink: 'https://backstage-talks-one.vercel.app/',
       githubLink: 'https://github.com/Olasunkanmi001/backstage-talks.git',
+    },
+    {
+      img: image7,
+      liveLink: 'https://tic-tac-toe-two-fawn.vercel.app/',
+      githubLink: 'https://github.com/Olasunkanmi001/tic-tac-toe.git',
     },
   ];
 
