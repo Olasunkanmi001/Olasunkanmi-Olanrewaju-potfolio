@@ -9,7 +9,7 @@ import { motion } from 'framer-motion';
 
 const Contact = () => {
     const profile = [
-        { "link": 'https://mail.google.com/mail/u/0/#inbox?compose=new', "icon": <AiFillGoogleCircle /> },
+        { "link": 'mailto:fuadolasunkanmi9@gmail.com', "icon": <AiFillGoogleCircle /> },
         { "link": 'https://www.linkedin.com/in/olasunkanmi-olanrewaju-333b192a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app', "icon": <SiLinkedin /> },
         { "link": 'https://www.facebook.com/profile.php?id=61557909239272&mibextid=LQQJ4d', "icon": <FaFacebook /> },
         { "link": 'https://x.com/Vintage044', "icon": <FaSquareXTwitter /> },
