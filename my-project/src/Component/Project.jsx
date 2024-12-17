@@ -5,6 +5,7 @@ import image2 from '../assets/Images/Screenshot 2024-10-07 at 5.06.18 PM.png';
 import image3 from '../assets/Images/Screenshot 2024-10-07 at 5.14.01 PM.png';
 import image4 from '../assets/Images/Screenshot 2024-10-07 at 5.30.34 PM.png';
 import image5 from '../assets/Images/Screenshot 2024-10-07 at 11.03.07 PM.png';
+import image6 from '../assets/Images/Screenshot 2024-12-17 at 10.48.04 PM.png';
 
 const Project = () => {
   const [activeIndex, setActiveIndex] = useState(null); // Track active project for mobile click
@@ -35,6 +36,11 @@ const Project = () => {
       img: image5,
       liveLink: 'https://product-list-with-cart-beryl-seven.vercel.app/',
       githubLink: 'https://github.com/Olasunkanmi001/product-list-with-cart.git',
+    },
+    {
+      img: image6,
+      liveLink: 'backstage-talks-one.vercel.app',
+      githubLink: 'https://github.com/Olasunkanmi001/backstage-talks.git',
     },
   ];
 
