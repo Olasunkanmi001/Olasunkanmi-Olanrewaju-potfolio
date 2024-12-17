@@ -39,7 +39,7 @@ const Project = () => {
     },
     {
       img: image6,
-      liveLink: 'backstage-talks-one.vercel.app',
+      liveLink: 'https://backstage-talks-one.vercel.app/',
       githubLink: 'https://github.com/Olasunkanmi001/backstage-talks.git',
     },
   ];
@@ -86,7 +86,7 @@ const Project = () => {
           <img
             src={data.img}
             alt={`Project ${index + 1}`}
-            className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
+            className="w-full h-auto md:h-[200px] lg:h-[300px] object-cover transition-transform duration-500 group-hover:scale-105"
           />
 
           {/* Overlay with motion animation */}
