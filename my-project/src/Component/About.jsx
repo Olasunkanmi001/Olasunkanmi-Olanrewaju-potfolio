@@ -75,9 +75,11 @@ const About = () => {
           initial="hidden"
           animate="visible"
         >
-          Hi, I’m Olasunkanmi Olanrewaju, a passionate Front-End Developer with a strong dedication to crafting seamless and visually engaging web experiences. My expertise lies in translating design concepts into fully functional, user-friendly interfaces using modern technologies like HTML5, CSS3, JavaScript, and React.js. I enjoy problem-solving, optimizing performance, and staying up-to-date with the latest web development trends to ensure the solutions I build are efficient, scalable, and accessible.
-          Whether I’m working on a personal project or collaborating with a team, I thrive on delivering high-quality, responsive websites that provide an intuitive user experience. My goal is to make the web a more beautiful, accessible, and functional space for everyone.
-          When I’m not coding, you can find me exploring new technologies, engaging with the developer community, or enjoying a good book.
+         Hi, I’m Olasunkanmi Olanrewaju, a dedicated Web and Mobile Developer with a strong passion for crafting seamless, visually engaging, and high-performing digital experiences. I specialize in turning design concepts into fully functional solutions using HTML, CSS, JavaScript, TypeScript, React.js, Node.js, and React Native.
+
+I love solving problems, optimizing performance, and staying ahead with the latest development trends to deliver efficient, scalable, and accessible applications across web and mobile platforms. My goal is to make digital products beautiful, functional, and inclusive for everyone.
+
+Outside of coding, I enjoy exploring new technologies, connecting with the developer community, and diving into a good book.
         </motion.h5>
       </motion.div>
     </motion.div>

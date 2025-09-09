@@ -9,8 +9,8 @@ import image6 from '../assets/Images/Screenshot 2024-12-17 at 10.48.04 PM.png';
 import image7 from '../assets/Images/Screenshot 2024-12-17 at 11.30.31 PM.png';
 
 const Project = () => {
-  const [activeIndex, setActiveIndex] = useState(null); // Track active project for mobile click
-  const [isMobile, setIsMobile] = useState(false); // State to track if the screen is mobile
+  const [activeIndex, setActiveIndex] = useState(null); 
+  const [isMobile, setIsMobile] = useState(false); 
 
   const datas = [
     {
@@ -53,7 +53,7 @@ const Project = () => {
   // Effect to set isMobile based on window width
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768); // Change the threshold as needed (768px for iPad)
+      setIsMobile(window.innerWidth <= 768); 
     };
 
     handleResize(); // Call it initially
@@ -85,9 +85,9 @@ const Project = () => {
         <div
           key={index}
           className="relative shadow-lg rounded-xl overflow-hidden group"
-          onClick={() => isMobile && handleToggle(index)} // Click event for mobile screens
-          onMouseEnter={() => !isMobile && handleMouseEnter(index)} // Mouse enter for larger screens
-          onMouseLeave={() => !isMobile && handleMouseLeave()} // Mouse leave to clear active project for larger screens
+          onClick={() => isMobile && handleToggle(index)} 
+          onMouseEnter={() => !isMobile && handleMouseEnter(index)} 
+          onMouseLeave={() => !isMobile && handleMouseLeave()} 
         >
           <img
             src={data.img}

@@ -12,16 +12,17 @@ import { motion } from 'framer-motion'; // Import Framer Motion
 
 const Tools = () => {
   const tools = [
-    { icon: <FaHtml5 className="text-orange-600 text-7xl" />, name: "HTML" },
-    { icon: <FaCss3Alt className="text-blue-600 text-7xl" />, name: "CSS" },
-    { icon: <IoLogoJavascript className="text-7xl text-yellow-400" />, name: "JavaScript" },
-    { icon: <FaBootstrap className="text-purple-600 text-7xl" />, name: "Bootstrap" },
-    { icon: <RiReactjsLine className="text-blue-400 text-7xl" />, name: "React" },
-    { icon: <RiTailwindCssFill className="text-blue-400 text-7xl" />, name: "Tailwind CSS" },
+    { icon: <FaHtml5 className="text-orange-600 text-8xl" />, name: "HTML" },
+    { icon: <FaCss3Alt className="text-blue-600 text-8xl" />, name: "CSS" },
+    { icon: <IoLogoJavascript className="text-8xl text-yellow-400" />, name: "JavaScript" },
+    { icon: <FaBootstrap className="text-purple-600 text-8xl" />, name: "Bootstrap" },
+    { icon: <RiReactjsLine className="text-blue-400 text-8xl" />, name: "React" },
+    { icon: <RiTailwindCssFill className="text-blue-400 text-8xl" />, name: "Tailwind CSS" },
     { icon: <PiFramerLogoFill className="text-7xl" />, name: "Framer Motion" },
-    { icon: <FaGitAlt className="text-red-500 text-7xl" />, name: "Git" },
-    { icon: <SiNextdotjs  className='text-white text-7xl'/>, name: "Next"},
-    { icon: <IoLogoFigma className='text-orange-500 text-7xl'/>, name: "Figma"}
+    { icon: <FaGitAlt className="text-red-500 text-8xl" />, name: "Git" },
+    { icon: <SiNextdotjs  className='text-white text-8xl'/>, name: "Next"},
+    { icon: <IoLogoFigma className='text-orange-500 text-8xl'/>, name: "Figma"},
+    { icon: <RiReactjsLine className="text-blue-400 text-8xl" />, name: "React Native"},
   ];
 
   // Framer Motion animation variant for flip effect
@@ -50,7 +51,7 @@ const Tools = () => {
           >
             {tool.icon}
             <h1
-              className={` text-[#E8DAB2] font-extrabold w-full h-10 pt-2 mt-2 flex justify-center items-center 
+              className={` text-[#E8DAB2] pl-4 font-extrabold w-full h-10 pt-2 mt-2 flex justify-center items-center 
                 opacity-0 group-hover:opacity-100 transition-opacity duration-300`}
             >
               {tool.name}
