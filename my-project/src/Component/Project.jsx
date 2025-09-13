@@ -7,6 +7,7 @@ import image4 from '../assets/Images/Screenshot 2024-10-07 at 5.30.34 PM.png';
 import image5 from '../assets/Images/Screenshot 2024-10-07 at 11.03.07 PM.png';
 import image6 from '../assets/Images/Screenshot 2024-12-17 at 10.48.04 PM.png';
 import image7 from '../assets/Images/Screenshot 2024-12-17 at 11.30.31 PM.png';
+import image8 from '../assets/Images/Screenshot 2025-09-13 at 3.42.26 PM.png';
 
 const Project = () => {
   const [activeIndex, setActiveIndex] = useState(null); 
@@ -48,6 +49,12 @@ const Project = () => {
       liveLink: 'https://tic-tac-toe-two-fawn.vercel.app/',
       githubLink: 'https://github.com/Olasunkanmi001/tic-tac-toe.git',
     },
+    {
+      img: image8,
+      liveLink:  'http://advice-app-three-ruddy.vercel.app/',
+      githubLink: 'https://github.com/Olasunkanmi001/advice-app'
+    }
+  
   ];
 
   // Effect to set isMobile based on window width
