@@ -16,7 +16,7 @@ import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 const App = () => {
   return (
     <Router>
-      <div className=' bg-mountain-dark bg-cover bg-center pt-4 text-white'>
+      <div className=' bg-mountain-dark bg-cover bg-center pt-4 text-white min-h-screen'>
       <Navbar/>
 
           <Routes>
